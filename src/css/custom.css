@@ -7,23 +7,101 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
-  --ifm-code-font-size: 95%;
+    --ifm-color-primary: #25c2a0;
+    --ifm-color-primary-dark: rgb(33, 175, 144);
+    --ifm-color-primary-darker: rgb(31, 165, 136);
+    --ifm-color-primary-darkest: rgb(26, 136, 112);
+    --ifm-color-primary-light: rgb(70, 203, 174);
+    --ifm-color-primary-lighter: rgb(102, 212, 189);
+    --ifm-color-primary-lightest: rgb(146, 224, 208);
+    --ifm-code-font-size: 95%;
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.1);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
+    background-color: rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 0 calc(-1 * var(--ifm-pre-padding));
+    padding: 0 var(--ifm-pre-padding);
 }
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
-  background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header-twitter-link:hover,
+.header-github-link:hover,
+.header-discord-link:hover,
+.header-telegram-link:hover,
+.header-slack-link:hover {
+    opacity: 0.6;
+}
+
+html[data-theme='dark'] .header-twitter-link:before,
+html[data-theme='dark'] .header-slack-link:before,
+html[data-theme='dark'] .header-telegram-link:before,
+html[data-theme='dark'] .header-discord-link:before,
+html[data-theme='dark'] .header-github-link:before {
+    filter: invert(100%);
+}
+
+/** navbar twitter icon **/
+.header-twitter-link:before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: flex;
+    background: url("/static/img/twitter.svg") no-repeat;
+}
+
+/** navbar github icon **/
+.header-github-link:before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: flex;
+    background: url("/static/img/github.svg") no-repeat;
+}
+
+/** navbar discord icon **/
+.header-discord-link:before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: flex;
+    background: url("/static/img/discord.svg") no-repeat;
+}
+
+/** navbar telegram icon **/
+.header-telegram-link:before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: flex;
+    background: url("/static/img/telegram.svg") no-repeat;
+}
+
+/** navbar slack icon **/
+.header-slack-link:before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: flex;
+    background: url("/static/img/slack.svg") no-repeat;
+}
+
+.footer--dark {
+    --ifm-footer-background-color: #2b3137;
+}
+
+.unique-tabs .tabs__item {
+    height: 18px;
+    line-height: 16px;
+    margin-right: 8px;
+}
+
+.unique-tabs .tabs__item--active {
+    border: 0;
+    color: #fff;
+    border-radius: var(--ifm-global-radius);
+    background-color: var(--ifm-tabs-color-active);
 }
