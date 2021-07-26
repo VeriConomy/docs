@@ -1,4 +1,3 @@
-
 const versions = require('./versions.json');
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
@@ -12,19 +11,18 @@ module.exports = {
         locales: ['en', 'fr'],
         localeConfigs: {
             en: {
-              label: 'English',
+                label: 'English',
             },
             fr: {
-              label: 'Français',
+                label: 'Français',
             },
-          },
+        },
     },
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
     customFields: {
-        description:
-            'Vericonomy documentation will let you know everything you need about Vericoin and Verium CryptoCurrency. You will also find resources, 3rd party apps documentation, ...',
+        description: 'Vericonomy documentation will let you know everything you need about Vericoin and Verium CryptoCurrency. You will also find resources, 3rd party apps documentation, ...',
     },
     organizationName: 'VeriConomy', // Usually your GitHub org/user name.
     projectName: 'docs', // Usually your repo name.
@@ -48,24 +46,33 @@ module.exports = {
                 src: 'img/logo.png',
                 srcDark: 'img/logo.png',
             },
-            items: [
-                {
+            items: [{
                     type: 'doc',
                     docId: 'intro',
                     position: 'left',
                     label: 'General',
+                    docsPluginId: 'default',
                 },
                 {
                     type: 'doc',
                     docId: 'intro',
                     position: 'left',
                     label: 'Wallets',
+                    docsPluginId: 'wallets',
                 },
                 {
                     type: 'doc',
                     docId: 'intro',
                     position: 'left',
                     label: '3rd Party apps',
+                    docsPluginId: 'thirdpartyapps',
+                },
+                {
+                    type: 'doc',
+                    docId: 'support',
+                    position: 'left',
+                    label: 'About',
+                    docsPluginId: 'about',
                 },
                 {
                     href: 'https://slack.vericonomy.com',
@@ -105,43 +112,38 @@ module.exports = {
                 {
                     type: 'localeDropdown',
                     position: 'right',
-                    dropdownItemsAfter: [
-                        {
-                            href: 'https://github.com/VeriConomy/docs',
-                            label: 'Help Us Translate',
-                        },
-                    ],
+                    dropdownItemsAfter: [{
+                        href: 'https://github.com/VeriConomy/docs',
+                        label: 'Help Us Translate',
+                    }, ],
                 },
             ],
         },
         footer: {
             style: 'dark',
-            links: [
-                {
+            links: [{
                     title: 'Learn',
-                    items: [
-                        {
+                    items: [{
                             label: 'Introduction',
-                            to: '/docs/intro',
+                            to: '/general/intro',
                         },
                         {
                             label: 'Vericoin',
-                            to: '/docs/intro',
+                            to: '/general/intro',
                         },
                         {
                             label: 'Verium',
-                            to: '/docs/intro',
+                            to: '/general/intro',
                         },
                         {
                             label: '3rd Party apps',
-                            to: '/docs/intro',
+                            to: '/general/intro',
                         },
                     ],
                 },
                 {
                     title: 'More',
-                    items: [
-                        {
+                    items: [{
                             label: 'Official Website',
                             href: 'https://www.vericonomy.com',
                         },
@@ -161,8 +163,7 @@ module.exports = {
                 },
                 {
                     title: 'Community',
-                    items: [
-                        {
+                    items: [{
                             label: 'GitHub',
                             href: 'https://github.com/VeriConomy',
                         },
@@ -183,8 +184,7 @@ module.exports = {
                 {
                     title: 'Legal',
                     // Please do not remove the privacy and terms, it's a legal requirement.
-                    items: [
-                        {
+                    items: [{
                             label: 'Privacy',
                             to: '/about/legal/privacy',
                         },
@@ -206,27 +206,51 @@ module.exports = {
         [
             '@docusaurus/plugin-content-docs',
             {
-              id: 'about',
-              path: 'about',
-              routeBasePath: 'about',
-              editCurrentVersion: true,
-              sidebarPath: require.resolve('./sidebarsAbout.js'),
-              showLastUpdateAuthor: true,
-              showLastUpdateTime: true,
+                id: 'about',
+                path: 'about',
+                routeBasePath: 'about',
+                editCurrentVersion: true,
+                sidebarPath: require.resolve('./sidebarsAbout.js'),
+                showLastUpdateAuthor: true,
+                showLastUpdateTime: true,
             },
-          ],
-          [
+        ],
+        [
             '@docusaurus/plugin-content-docs',
             {
-              id: 'community',
-              path: 'community',
-              routeBasePath: 'community',
-              editCurrentVersion: true,
-              sidebarPath: require.resolve('./sidebarsCommunity.js'),
-              showLastUpdateAuthor: true,
-              showLastUpdateTime: true,
+                id: 'community',
+                path: 'community',
+                routeBasePath: 'community',
+                editCurrentVersion: true,
+                sidebarPath: require.resolve('./sidebarsCommunity.js'),
+                showLastUpdateAuthor: true,
+                showLastUpdateTime: true,
             },
-          ],
+        ],
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'thirdpartyapps',
+                path: 'thirdpartyapps',
+                routeBasePath: 'thirdpartyapps',
+                editCurrentVersion: true,
+                sidebarPath: require.resolve('./sidebarsThirdpartyapps.js'),
+                showLastUpdateAuthor: true,
+                showLastUpdateTime: true,
+            },
+        ],
+        [
+            '@docusaurus/plugin-content-docs',
+            {
+                id: 'wallets',
+                path: 'wallets',
+                routeBasePath: 'wallets',
+                editCurrentVersion: true,
+                sidebarPath: require.resolve('./sidebarsWallets.js'),
+                showLastUpdateAuthor: true,
+                showLastUpdateTime: true,
+            },
+        ],
         [
             '@docusaurus/plugin-ideal-image',
             {
@@ -244,8 +268,7 @@ module.exports = {
                     'standalone',
                     'queryString',
                 ],
-                pwaHead: [
-                    {
+                pwaHead: [{
                         tagName: 'link',
                         rel: 'icon',
                         href: 'img/vericonomy.png',
@@ -300,10 +323,11 @@ module.exports = {
             '@docusaurus/preset-classic',
             {
                 docs: {
-                    sidebarPath: require.resolve('./sidebars.js'),
-                    // Please change this to your repo.
+                    path: 'general',
+                    routeBasePath: 'general',
+                    sidebarPath: require.resolve('./sidebarsGeneral.js'),
                     editUrl:
-                        'https://github.com/VeriConomy/docs/edit/master/',
+                        'https://github.com/VeriConomy/docs/general/edit/master/',
                 },
                 sitemap: {
                     changefreq: 'weekly',
