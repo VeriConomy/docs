@@ -213,6 +213,7 @@ module.exports = {
                 sidebarPath: require.resolve('./sidebarsAbout.js'),
                 showLastUpdateAuthor: true,
                 showLastUpdateTime: true,
+                editUrl: 'https://github.com/VeriConomy/docs/edit/master/',
             },
         ],
         [
@@ -225,6 +226,7 @@ module.exports = {
                 sidebarPath: require.resolve('./sidebarsCommunity.js'),
                 showLastUpdateAuthor: true,
                 showLastUpdateTime: true,
+                editUrl: 'https://github.com/VeriConomy/docs/edit/master/',
             },
         ],
         [
@@ -237,6 +239,7 @@ module.exports = {
                 sidebarPath: require.resolve('./sidebarsThirdpartyapps.js'),
                 showLastUpdateAuthor: true,
                 showLastUpdateTime: true,
+                editUrl: 'https://github.com/VeriConomy/docs/edit/master/',
             },
         ],
         [
@@ -249,6 +252,7 @@ module.exports = {
                 sidebarPath: require.resolve('./sidebarsWallets.js'),
                 showLastUpdateAuthor: true,
                 showLastUpdateTime: true,
+                editUrl: 'https://github.com/VeriConomy/docs/edit/master/',
             },
         ],
         [
@@ -326,8 +330,7 @@ module.exports = {
                     path: 'general',
                     routeBasePath: 'general',
                     sidebarPath: require.resolve('./sidebarsGeneral.js'),
-                    editUrl:
-                        'https://github.com/VeriConomy/docs/general/edit/master/',
+                    editUrl: 'https://github.com/VeriConomy/docs/edit/master/',
                 },
                 sitemap: {
                     changefreq: 'weekly',
