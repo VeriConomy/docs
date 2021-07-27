@@ -1,8 +1,8 @@
 ---
 sidebar_position: 1
+label: 'Introduction'
 ---
-
-# General Introduction
+# Introduction
 
 :::info
 
@@ -12,7 +12,7 @@ This section of the documentation will provide a global vision of the VeriConomy
 
 ## VeriConomy
 
-**VeriConomy** is the first dual blockchain protocol pairing a digital currency, [**VeriCoin (VRC)**](#vericoin),  with a digital commodity, [**Verium Reserve (VRM)**](#verium-reserve) that forms a cohesive decentralized financial system using a unique protocol called [binary chain](#binary-chain).
+**VeriConomy** is the first **dual** blockchain protocol pairing a digital currency, [**VeriCoin (VRC)**](#vericoin),  with a digital commodity, [**Verium Reserve (VRM)**](#verium-reserve) that forms a cohesive decentralized financial system using a unique protocol called [binary chain](#binary-chain).
 
 Current [digital currencies](https://en.wikipedia.org/wiki/Cryptocurrency) *(Bitcoin, Doge, Dash)* face the impossible task of attempting to be both a fast currency and a secure store of value. VeriConomy solve this problem by incorporating complementary protocols known as binary chain.
 

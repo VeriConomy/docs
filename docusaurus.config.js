@@ -128,16 +128,12 @@ module.exports = {
                             to: '/general/intro',
                         },
                         {
-                            label: 'Vericoin',
-                            to: '/general/intro',
-                        },
-                        {
-                            label: 'Verium',
-                            to: '/general/intro',
+                            label: 'Wallets',
+                            to: '/wallets/intro',
                         },
                         {
                             label: '3rd Party apps',
-                            to: '/general/intro',
+                            to: '/thirdpartyapps/intro',
                         },
                     ],
                 },
