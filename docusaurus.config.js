@@ -203,7 +203,7 @@ module.exports = {
             '@docusaurus/plugin-content-docs',
             {
                 id: 'about',
-                path: 'about',
+                path: 'docs/about',
                 routeBasePath: 'about',
                 editCurrentVersion: true,
                 sidebarPath: require.resolve('./sidebarsAbout.js'),
@@ -216,7 +216,7 @@ module.exports = {
             '@docusaurus/plugin-content-docs',
             {
                 id: 'community',
-                path: 'community',
+                path: 'docs/community',
                 routeBasePath: 'community',
                 editCurrentVersion: true,
                 sidebarPath: require.resolve('./sidebarsCommunity.js'),
@@ -229,7 +229,7 @@ module.exports = {
             '@docusaurus/plugin-content-docs',
             {
                 id: 'thirdpartyapps',
-                path: 'thirdpartyapps',
+                path: 'docs/thirdpartyapps',
                 routeBasePath: 'thirdpartyapps',
                 editCurrentVersion: true,
                 sidebarPath: require.resolve('./sidebarsThirdpartyapps.js'),
@@ -242,7 +242,7 @@ module.exports = {
             '@docusaurus/plugin-content-docs',
             {
                 id: 'wallets',
-                path: 'wallets',
+                path: 'docs/wallets',
                 routeBasePath: 'wallets',
                 editCurrentVersion: true,
                 sidebarPath: require.resolve('./sidebarsWallets.js'),
@@ -323,7 +323,7 @@ module.exports = {
             '@docusaurus/preset-classic',
             {
                 docs: {
-                    path: 'general',
+                    path: 'docs/general',
                     routeBasePath: 'general',
                     sidebarPath: require.resolve('./sidebarsGeneral.js'),
                     editUrl: 'https://github.com/VeriConomy/docs/edit/master/',

@@ -20,6 +20,6 @@ This symbiotic protocol will speed **VeriCoin’s** block-time to less than 30 s
 
 **ASIC & GPU Resistant:** The scrypt² algorithm allows anyone with a Computer to mine **Verium**. Since it is ASIC and GPU resistant, this allows more individuals to participate. This results in a more decentralized network and improved security.
 
-**Variable Block-Time**: Introducing a new variable block-time paradigm that speeds up as mining power increases. This allows **Verium** to automatically scale, enhance transaction speed and capacity, while ensuring security at any level of mining.
+**Variable Block-Time:** Introducing a new variable block-time paradigm that speeds up as mining power increases. This allows **Verium** to automatically scale, enhance transaction speed and capacity, while ensuring security at any level of mining.
 
-**Aux Pow**: Through **Verium’s** auxiliary mining protocol, **Verium** will also process **VeriCoin** blocks. This process will speed up VeriCoin’s block-time to 30 seconds or faster. This enables **VeriCoin’s** network to provide an efficient and scalable ecosystem for consumer transactions well beyond current standards.
+**Aux Pow:** Through **Verium’s** auxiliary mining protocol, **Verium** will also process **VeriCoin** blocks. This process will speed up VeriCoin’s block-time to 30 seconds or faster. This enables **VeriCoin’s** network to provide an efficient and scalable ecosystem for consumer transactions well beyond current standards.
