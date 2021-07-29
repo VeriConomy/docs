@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
-label: 'Roadmap'
+sidebar_label: 'Roadmap'
+title: 'Roadmap'
 ---
 # Roadmap

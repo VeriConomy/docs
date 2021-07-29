@@ -1,6 +1,8 @@
 ---
 sidebar_position: 1
-label: 'Introduction'
+sidebar_label: 'Introduction'
+title: 'Introduction'
+description: Presentation of the VeriConomy Project
 ---
 # Introduction
 

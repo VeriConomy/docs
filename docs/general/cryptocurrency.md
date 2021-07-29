@@ -1,6 +1,7 @@
 ---
 sidebar_position: 2
-label: 'What is Cryptocurrency ?'
+sidebar_label: 'What is Cryptocurrency ?'
+title: 'What is Cryptocurrency ?'
 ---
 # What is Cryptocurrency ?
 
