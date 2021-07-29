@@ -326,6 +326,9 @@ module.exports = {
                     routeBasePath: 'general',
                     sidebarPath: require.resolve('./sidebarsGeneral.js'),
                     editUrl: 'https://github.com/VeriConomy/docs/edit/master/',
+                    editCurrentVersion: true,
+                    showLastUpdateAuthor: true,
+                    showLastUpdateTime: true,
                 },
                 sitemap: {
                     changefreq: 'weekly',
