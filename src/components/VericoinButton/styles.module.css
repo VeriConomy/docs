@@ -1,0 +1,12 @@
+.vericoinButton {
+    background-size: 30px;
+    background-position: 40px center;
+    background-repeat: no-repeat;
+    background: #1973bd;
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-radius: 100px;
+    display: inline-block;
+    padding: 15px 40px;
+}

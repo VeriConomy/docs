@@ -8,7 +8,7 @@ module.exports = {
     baseUrl: '/',
     i18n: {
         defaultLocale: 'en',
-        locales: ['en', 'fr'],
+        locales: ['en'],
         localeConfigs: {
             en: {
                 label: 'English',
@@ -27,7 +27,6 @@ module.exports = {
     organizationName: 'VeriConomy', // Usually your GitHub org/user name.
     projectName: 'docs', // Usually your repo name.
     themeConfig: {
-        sidebarCollapsible: true,
         hideableSidebar: true,
         colorMode: {
             defaultMode: 'light',
@@ -257,7 +256,7 @@ module.exports = {
                 quality: 70,
                 max: 1030, // max resized image's size.
                 min: 640, // min resized image's size. if original is lower, use that size.
-                steps: 2, // the max number of images generated between min and max (inclusive)
+                steps: 3, // the max number of images generated between min and max (inclusive)
             },
         ],
         [

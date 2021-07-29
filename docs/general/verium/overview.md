@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 label: 'Overview'
+description: Get an overview of the Verium Reserve Crypto Currency and find our more about his benefits.
 ---
 # Overview
 
@@ -23,3 +24,11 @@ This symbiotic protocol will speed **VeriCoin’s** block-time to less than 30 s
 **Variable Block-Time:** Introducing a new variable block-time paradigm that speeds up as mining power increases. This allows **Verium** to automatically scale, enhance transaction speed and capacity, while ensuring security at any level of mining.
 
 **Aux Pow:** Through **Verium’s** auxiliary mining protocol, **Verium** will also process **VeriCoin** blocks. This process will speed up VeriCoin’s block-time to 30 seconds or faster. This enables **VeriCoin’s** network to provide an efficient and scalable ecosystem for consumer transactions well beyond current standards.
+
+## Supply & Inflation
+
+As of this writing the circulating supply of **Verium** is around 3 millions.
+
+The supply ratio between **Verium** and **VeriCoin** settle into a 1:10 ratio in early 2020. Since then, **Verium** inflation rate dropped dramatically and the 10:1 ratio is maintained from that point forward.
+
+![Supply chart](../assets/img/supply-chart.jpg)
